@@ -18,6 +18,33 @@ export default function Index() {
   const [goalValue, setGoalValue] = useState(0);
   const [selectZikr, setSelectZikr] = useState("");
   const [zikrMeaning, setZikrMeaning] = useState("");
+  const zikrs = [
+    {
+      id: 1,
+      name: "SUBHAN ALLAH",
+      meaning: "GLORY BE TO ALLAH",
+    },
+    {
+      id: 2,
+      name: "ALLAHU AKBAR",
+      meaning: "ALLAH IS GREATER",
+    },
+    {
+      id: 3,
+      name: "LA ILAHA ILLALLAH",
+      meaning: "THERE IS NO GOD BUT ALLAH",
+    },
+    {
+      id: 4,
+      name: "ALHAMDULLILLAH",
+      meaning: "ALLAH IS TO BE PRAISED",
+    },
+    {
+      id: 5,
+      name: "ASTAGFIRULLAH",
+      meaning: "I SEEK FORGIVENESS FROM ALLAH",
+    },
+  ];
 
   const handleCounter = () => {
     if (goalValue === 0) {
@@ -59,17 +86,8 @@ export default function Index() {
         style={{ flex: 1 }}
         keyboardVerticalOffset={20}
       >
-        <ScrollView
-          className="flex-1 mb-14"
-          keyboardShouldPersistTaps="handled"
-        >
-          <View className="flex-row items-center justify-center my-8">
-            <Text className="text-2xl font-bold text-[#5D4201]">
-              Al Tasbih App
-            </Text>
-          </View>
-
-          <View className="flex-col items-center mt-16">
+        <ScrollView className="flex-1" keyboardShouldPersistTaps="handled">
+          <View className="flex-col items-center mt-2">
             <Text className="text-xl text-[#AF8B47]">
               {selectZikr || "SUBHAN ALLAH"}
             </Text>
@@ -118,67 +136,22 @@ export default function Index() {
             </TouchableOpacity>
           </View>
 
-          <View>
-            <TouchableOpacity
-              className="border border-[#AF8B47] rounded-full p-4 mt-12 items-center justify-center"
-              onPress={() => {
-                handleSelectZikr("Subhan ALLAH");
-                handleSelectZikrMeaning("GLORY BE TO ALLAH");
-              }}
-            >
-              <Text className="text-xl font-semibold">SUBHAN ALLAH</Text>
-              <Text className="text-sm text-[#003829] italic">
-                GLORY BE TO ALLAH
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              className="border border-[#AF8B47] rounded-full p-4 mt-2 items-center justify-center"
-              onPress={() => {
-                handleSelectZikr("ALLAHU AKBAR");
-                handleSelectZikrMeaning("ALLAH IS GREATER");
-              }}
-            >
-              <Text className="text-xl font-semibold">ALLAHU AKBAR</Text>
-              <Text className="text-sm text-[#003829] italic">
-                ALLAH IS GREATER
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              className="border border-[#AF8B47] rounded-full p-4 mt-2 items-center justify-center"
-              onPress={() => {
-                handleSelectZikr("LA ILAHA ILLALLAH");
-                handleSelectZikrMeaning("THERE IS NO GOD BUT ALLAH");
-              }}
-            >
-              <Text className="text-xl font-semibold">LA ILAHA ILLALLAH</Text>
-              <Text className="text-sm text-[#003829] italic">
-                THERE IS NO GOD BUT ALLAH
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              className="border border-[#AF8B47] rounded-full p-4 mt-2 items-center justify-center"
-              onPress={() => {
-                handleSelectZikr("ALHAMDULLILLAH");
-                handleSelectZikrMeaning("ALLAH IS TO BE PRAISED");
-              }}
-            >
-              <Text className="text-xl font-semibold">ALHAMDULLILLAH</Text>
-              <Text className="text-sm text-[#003829] italic">
-                ALLAH IS TO BE PRAISED
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              className="border border-[#AF8B47] rounded-full p-4 mt-2 items-center justify-center"
-              onPress={() => {
-                handleSelectZikr("ASTAGFIRULLAH");
-                handleSelectZikrMeaning("I SEEK FORGIVENESS FROM ALLAH");
-              }}
-            >
-              <Text className="text-xl font-semibold">ASTAGFIRULLAH</Text>
-              <Text className="text-sm text-[#003829] italic">
-                I SEEK FORGIVENESS FROM ALLAH
-              </Text>
-            </TouchableOpacity>
+          <View className="mt-14 px-4">
+            {zikrs.map((zikr) => (
+              <TouchableOpacity
+                key={zikr.id}
+                className="border border-[#AF8B47] rounded-full p-4 mt-2 items-center justify-center"
+                onPress={() => {
+                  handleSelectZikr(zikr.name);
+                  handleSelectZikrMeaning(zikr.meaning);
+                }}
+              >
+                <Text className="text-xl font-semibold">{zikr.name}</Text>
+                <Text className="text-sm text-[#003829] italic">
+                  {zikr.meaning}
+                </Text>
+              </TouchableOpacity>
+            ))}
           </View>
         </ScrollView>
       </KeyboardAvoidingView>
