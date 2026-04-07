@@ -54,11 +54,14 @@ export default function Index() {
 
   return (
     <SafeAreaView className="flex-1 bg-[#FFEFD7]">
-      <ScrollView className="flex-1 mb-14">
-        <KeyboardAvoidingView
-          behavior={Platform.OS === "ios" ? "padding" : "height"}
-          style={{ flex: 1 }}
-          keyboardVerticalOffset={20}
+      <KeyboardAvoidingView
+        behavior={Platform.OS === "ios" ? "padding" : "height"}
+        style={{ flex: 1 }}
+        keyboardVerticalOffset={20}
+      >
+        <ScrollView
+          className="flex-1 mb-14"
+          keyboardShouldPersistTaps="handled"
         >
           <View className="flex-row items-center justify-center my-8">
             <Text className="text-2xl font-bold text-[#5D4201]">
@@ -177,8 +180,8 @@ export default function Index() {
               </Text>
             </TouchableOpacity>
           </View>
-        </KeyboardAvoidingView>
-      </ScrollView>
+        </ScrollView>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }
