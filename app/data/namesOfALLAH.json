@@ -1,0 +1,221 @@
+[
+  { "id": 1, "name": "Ar-Rahman (الرحمن)", "meaning": "The Most Merciful" },
+  { "id": 2, "name": "Ar-Rahim (الرحيم)", "meaning": "The Most Compassionate" },
+  {
+    "id": 3,
+    "name": "Al-Malik (الملك)",
+    "meaning": "The King and Owner of Dominion"
+  },
+  { "id": 4, "name": "Al-Quddus (القدوس)", "meaning": "The Absolutely Pure" },
+  {
+    "id": 5,
+    "name": "As-Salam (السلام)",
+    "meaning": "The Source of Peace and Safety"
+  },
+  { "id": 6, "name": "Al-Mu'min (المؤمن)", "meaning": "The Guardian of Faith" },
+  { "id": 7, "name": "Al-Muhaymin (المهيمن)", "meaning": "The Protector" },
+  { "id": 8, "name": "Al-Aziz (العزيز)", "meaning": "The Almighty" },
+  { "id": 9, "name": "Al-Jabbar (الجبار)", "meaning": "The Compeller" },
+  { "id": 10, "name": "Al-Mutakabbir (المتكبر)", "meaning": "The Supreme" },
+  { "id": 11, "name": "Al-Khaliq (الخالق)", "meaning": "The Creator" },
+  { "id": 12, "name": "Al-Bari' (البارئ)", "meaning": "The Evolver" },
+  { "id": 13, "name": "Al-Musawwir (المصور)", "meaning": "The Fashioner" },
+  {
+    "id": 14,
+    "name": "Al-Ghaffar (الغفار)",
+    "meaning": "The Constant Forgiver"
+  },
+  { "id": 15, "name": "Al-Qahhar (القهار)", "meaning": "The All-Subduer" },
+  { "id": 16, "name": "Al-Wahhab (الوهاب)", "meaning": "The Bestower" },
+  { "id": 17, "name": "Ar-Razzaq (الرزاق)", "meaning": "The Provider" },
+  { "id": 18, "name": "Al-Fattah (الفتاح)", "meaning": "The Opener, Judge" },
+  {
+    "id": 19,
+    "name": "Al-`Alim (العليم)",
+    "meaning": "The All-Knowing, the Knower"
+  },
+  { "id": 20, "name": "Al-Qabid (القابض)", "meaning": "The Withholder" },
+  { "id": 21, "name": "Al-Basit (الباسط)", "meaning": "The Extender" },
+  { "id": 22, "name": "Al-Khafid (الخافض)", "meaning": "The Abaser" },
+  { "id": 23, "name": "Ar-Rafi` (الرافع)", "meaning": "The Exalter" },
+  {
+    "id": 24,
+    "name": "Al-Mu`izz (المعز)",
+    "meaning": "The Honourer, the Bestower"
+  },
+  { "id": 25, "name": "Al-Mudhill (المذل)", "meaning": "The Dishonourer" },
+  { "id": 26, "name": "As-Sami` (السميع)", "meaning": "The All-Hearing" },
+  { "id": 27, "name": "Al-Basir (البصير)", "meaning": "The All-Seeing" },
+  { "id": 28, "name": "Al-Hakam (الحكم)", "meaning": "The Impartial Judge" },
+  { "id": 29, "name": "Al-`Adl (العدل)", "meaning": "The Utterly Just" },
+  {
+    "id": 30,
+    "name": "Al-Latif (اللطيف)",
+    "meaning": "The Subtle One, the Most Gentle"
+  },
+  { "id": 31, "name": "Al-Khabir (الخبير)", "meaning": "The All-Aware" },
+  { "id": 32, "name": "Al-Halim (الحليم)", "meaning": "The Most Forbearing" },
+  {
+    "id": 33,
+    "name": "Al-Azim (العظيم)",
+    "meaning": "The Magnificent, the Infinite"
+  },
+  { "id": 34, "name": "Al-Ghafur (الغفور)", "meaning": "The Great Forgiver" },
+  {
+    "id": 35,
+    "name": "Ash-Shakur (الشكور)",
+    "meaning": "The Most Appreciative"
+  },
+  { "id": 36, "name": "Al-Aliyy (العلى)", "meaning": "The Most High" },
+  { "id": 37, "name": "Al-Kabir (الكبير)", "meaning": "The Most Great" },
+  { "id": 38, "name": "Al-Hafiz (الحفيظ)", "meaning": "The Preserver" },
+  { "id": 39, "name": "Al-Muqit (المقيت)", "meaning": "The Nourisher" },
+  { "id": 40, "name": "Al-Hasib (الحسيب)", "meaning": "The Reckoner" },
+  { "id": 41, "name": "Al-Jalil (الجليل)", "meaning": "The Majestic" },
+  { "id": 42, "name": "Al-Karim (الكريم)", "meaning": "The Most Generous" },
+  { "id": 43, "name": "Ar-Raqib (الرقيب)", "meaning": "The Watchful" },
+  { "id": 44, "name": "Al-Mujib (المجيب)", "meaning": "The Responsive One" },
+  {
+    "id": 45,
+    "name": "Al-Wasi` (الواسع)",
+    "meaning": "The All-Encompassing, the Boundless"
+  },
+  { "id": 46, "name": "Al-Hakim (الحكيم)", "meaning": "The All-Wise" },
+  {
+    "id": 47,
+    "name": "Al-Wadud (الودود)",
+    "meaning": "The Most Loving, the Most Kind"
+  },
+  {
+    "id": 48,
+    "name": "Al-Majid (المجيد)",
+    "meaning": "The Glorious, the Most Honorable"
+  },
+  { "id": 49, "name": "Al-Ba'ith (الباعث)", "meaning": "The Resurrector" },
+  {
+    "id": 50,
+    "name": "Ash-Shahid (الشهيد)",
+    "meaning": "The Witness, the Observer"
+  },
+  { "id": 51, "name": "Al-Haqq (الحق)", "meaning": "The Truth" },
+  { "id": 52, "name": "Al-Wakil (الوكيل)", "meaning": "The Trustee" },
+  { "id": 53, "name": "Al-Qawiyy (القوي)", "meaning": "The Strong" },
+  { "id": 54, "name": "Al-Matin (المتين)", "meaning": "The Firm One" },
+  {
+    "id": 55,
+    "name": "Al-Waliyy (الولي)",
+    "meaning": "The Protecting Associate"
+  },
+  { "id": 56, "name": "Al-Hamid (الحميد)", "meaning": "The Praiseworthy" },
+  { "id": 57, "name": "Al-Muhsi (المحصي)", "meaning": "The Appraiser" },
+
+  {
+    "id": 58,
+    "name": "Al-Mubdi' (المبدئ)",
+    "meaning": "The Originator, the Initiator"
+  },
+  {
+    "id": 59,
+    "name": "Al-Mu'id (المعيد)",
+    "meaning": "The Restorer, the Reinstater"
+  },
+  { "id": 60, "name": "Al-Muhyi (المحيي)", "meaning": "The Giver of Life" },
+  { "id": 61, "name": "Al-Mumit (المميت)", "meaning": "The Creator of Death" },
+  { "id": 62, "name": "Al-Hayy (الحي)", "meaning": "The Ever-Living" },
+  {
+    "id": 63,
+    "name": "Al-Qayyum (القيوم)",
+    "meaning": "The Sustainer, the Self-Subsisting"
+  },
+  { "id": 64, "name": "Al-Wajid (الواجد)", "meaning": "The Perceiver" },
+  {
+    "id": 65,
+    "name": "Al-Majid (الماجد)",
+    "meaning": "The Glorious, the Noble"
+  },
+  { "id": 66, "name": "Al-Wahid (الواحد)", "meaning": "The One" },
+  {
+    "id": 67,
+    "name": "Al-Ahad (الاحد)",
+    "meaning": "The Indivisible, the Unique"
+  },
+
+  { "id": 68, "name": "As-Samad (الصمد)", "meaning": "The Satisfier of Needs" },
+  { "id": 69, "name": "Al-Qadir (القادر)", "meaning": "The Omnipotent" },
+  {
+    "id": 70,
+    "name": "Al-Muqtadir (المقتدر)",
+    "meaning": "The Creator of All Power"
+  },
+  { "id": 71, "name": "Al-Muqaddim (المقدم)", "meaning": "The Expediter" },
+  { "id": 72, "name": "Al-Mu'akhkhir (المؤخر)", "meaning": "The Delayer" },
+  { "id": 73, "name": "Al-Awwal (الأول)", "meaning": "The First" },
+  { "id": 74, "name": "Al-Akhir (الأخر)", "meaning": "The Last" },
+  { "id": 75, "name": "Az-Zahir (الظاهر)", "meaning": "The Manifest" },
+  {
+    "id": 76,
+    "name": "Al-Batin (الباطن)",
+    "meaning": "The Hidden One, Knower of the Hidden"
+  },
+  { "id": 77, "name": "Al-Wali (الوالي)", "meaning": "The Sole Governor" },
+  { "id": 78, "name": "Al-Muta'ali (المتعالي)", "meaning": "The Self Exalted" },
+  {
+    "id": 79,
+    "name": "Al-Barr (البر)",
+    "meaning": "The Source of All Goodness"
+  },
+  { "id": 80, "name": "At-Tawwab (التواب)", "meaning": "The Ever-Pardoning" },
+  { "id": 81, "name": "Al-Muntaqim (المنتقم)", "meaning": "The Avenger" },
+  { "id": 82, "name": "Al-`Afuww (العفو)", "meaning": "The Pardoner" },
+  { "id": 83, "name": "Ar-Ra'uf (الرؤوف)", "meaning": "The Most Kind" },
+  {
+    "id": 84,
+    "name": "Malik-al-Mulk (مالك الملك)",
+    "meaning": "Master of the Kingdom, Owner of the Dominion and All Sovereignty"
+  },
+
+  {
+    "id": 85,
+    "name": "Dhul-Jalali wal-Ikram (ذو الجلال و الإكرام)",
+    "meaning": "Possessor of Glory and Honor, Lord of Glory and Honor"
+  },
+  { "id": 86, "name": "Al-Muqsit (المقسط)", "meaning": "The Just One" },
+  {
+    "id": 87,
+    "name": "Al-Jami` (الجامع)",
+    "meaning": "The Gatherer, the Uniter"
+  },
+  {
+    "id": 88,
+    "name": "Al-Ghaniyy (الغني)",
+    "meaning": "The Self-Sufficient, the Wealthy"
+  },
+  { "id": 89, "name": "Al-Mughni (المغني)", "meaning": "The Enricher" },
+  { "id": 90, "name": "Al-Mani` (المانع)", "meaning": "The Withholder" },
+  { "id": 91, "name": "Ad-Darr (الضار)", "meaning": "The Distresser" },
+
+  {
+    "id": 92,
+    "name": "An-Nafi` (النافع)",
+    "meaning": "The Propitious, the Benefactor"
+  },
+  { "id": 93, "name": "An-Nur (النور)", "meaning": "The Light" },
+  { "id": 94, "name": "Al-Hadi (الهادي)", "meaning": "The Guide" },
+  {
+    "id": 95,
+    "name": "Al-Badi (البديع)",
+    "meaning": "The Incomparable Originator"
+  },
+  { "id": 96, "name": "Al-Baqi (الباقي)", "meaning": "The Ever-Surviving" },
+  {
+    "id": 97,
+    "name": "Al-Warith (الوارث)",
+    "meaning": "The Inheritor, the Heir"
+  },
+  {
+    "id": 98,
+    "name": "Ar-Rashid (الرشيد)",
+    "meaning": "The Guide, Infallible Teacher, Knower"
+  },
+  { "id": 99, "name": "As-Sabur (الصبور)", "meaning": "The Patient One" }
+]
