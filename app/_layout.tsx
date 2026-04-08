@@ -44,11 +44,18 @@ export default function RootLayout() {
             }}
           />
           <Drawer.Screen
-            name="components/dailyProgress"
+            name="components/Duas"
             options={{
-              drawerLabel: "Daily Progress",
-              title: "Daily Progress",
-              headerShown: false,
+              drawerLabel: "Duas",
+              headerStyle: {
+                height: 80,
+                backgroundColor: "#FFEFD7",
+              },
+              headerTitle: () => (
+                <Text className="text-2xl font-bold text-[#5D4201]">
+                  Duas
+                </Text>
+              ),
             }}
           />
         </Drawer>
